@@ -1,0 +1,7 @@
+name: vision-workload
+resources:
+  file_mounts: {}
+  setup: |
+    pip install -r env/vision-requirements.txt
+  run: |
+    python scripts/launch_workload.py vision
