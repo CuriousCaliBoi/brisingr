@@ -1,0 +1,10 @@
+name: brisingr-cluster
+resources:
+  cloud: aws
+  region: us-west-2
+  instance_type: p3.2xlarge
+  ports: [8080]
+  image:
+    dockerfile: ../docker/llm.Dockerfile
+    workdir: /app
+    reqs: ../env/base-requirements.txt

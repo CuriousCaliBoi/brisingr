@@ -1,0 +1,1 @@
+# Add vision-specific dependencies here, e.g., torch, torchvision
